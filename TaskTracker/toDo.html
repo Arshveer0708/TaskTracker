@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 | To-Do List</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    
+  </head>
+  <body>
+    <!-- Name of to-do list -->
+    <h1>TaskTracker - To Do List</h1>
+    <!-- <p>  </p> -->
+
+<!-- div element with class "full" and inside it introducing 2 div elements one will have the input side of the task and other will show the output -->
+<div class = "full"> 
+    <!-- Input code -->
+    <div class= "left">
+      <div class = "leftInput">
+        <label class= "label"  for="item">Enter Name Of The Task</label><br>
+        <!-- Input element of type "text" to let the user type the task name of his/her wish -->
+        <input type="text" name="item" id="item" placeholder="Task Name"><br>
+        <!-- Submit button that will add the task name to the list  -->
+        <button class= "submitBtn" style="background-color: green; color: white; padding: 10px 24px;">Add Task</button>
+      </div>
+    </div>
+
+    <!-- Output will be shown in this div element. -->
+    <div class = "right">
+      <h2>Your Task List</h2>
+      <!-- Initial text when no task name is listed. (Will vanish when user will add atleast one task item) -->
+      <p>You have no assigned tasks.</p>
+
+      <!-- ul element will store the list elements  -->
+      <ul> </ul>
+    </div>
+
+</div>
+
+<script src="js/toDo.js"></script>
+  </body>
+</html>

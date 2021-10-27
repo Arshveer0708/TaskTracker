@@ -1,0 +1,84 @@
+/*Css for body*/
+body{    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #696969;
+}
+
+/*Css for input field*/
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/*css for button*/
+button{
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 3px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/*css for div*/
+.full{
+  width: 100%;
+  overflow:auto;
+}
+
+.left {
+  float:left; 
+  width: 40%;
+  background:#E0FFFF;
+  height: 470px;
+  font-weight: bolder;
+  font-size: 20px;
+  /*padding-bottom: 10px; */
+  text-align: center;
+}
+
+.right {
+  float: right;
+  background:#FAEBD7;
+  height: 470px;
+  width: 60%;
+}
+
+.leftInput{
+  margin-top: 20%;
+}
+
+h1{
+  font-weight: 30px;
+  font-size: 40px;
+  color: orange;
+  font-family: cursive;
+  text-align: center;
+}
+
+h2,p{
+  text-align: center;
+}
+
+.label{
+  margin-bottom: 10px;
+  color: black;
+  font-size:27px; 
+}
+
+/*css for list*/
+ul {
+  background: #FAEBD7;
+  padding: 20px;
+  font-size: 25px;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
+}
